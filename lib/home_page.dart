@@ -5,12 +5,14 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text('Wakie')),
+        title: Center(child: Text('Wakie Wakie')),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[],
+          children: <Widget>[
+            Image.asset('images/a1.png'),
+          ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
